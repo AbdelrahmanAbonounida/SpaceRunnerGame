@@ -1,0 +1,16 @@
+.pressedButton{
+	-fx-background-color: transparent;
+	-fx-background-image:url('assets/unipack_fixed/PNG/yellow_button03.png');
+}
+.releasedButton{
+	-fx-background-color: transparent;
+	-fx-background-image:url('assets/unipack_fixed/PNG/yellow_button02.png');
+}
+#pane{
+	-fx-background-image:url('../model/assets/spaceshooter/Backgrounds/blue.png');
+	-fx-background-repeat:repeat;
+	-fx-background-size: 600 600;
+	-fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
